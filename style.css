@@ -1,0 +1,29 @@
+html, body {
+  width: 2468px;
+  height: 1365px;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.outer {
+  width: 2468px;
+  height: 1365px;
+  background: #bca;
+  display: table;
+  background: url("https://i.imgur.com/1Aw9SqL.jpg") center center no-repeat;
+  background-size: cover;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  position: relative;
+}
